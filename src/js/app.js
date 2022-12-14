@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", () => {
   
   hotInHere.forEach(element => {
     if(!element.textContent.includes('🔥')){
-      element.textContent += '🔥'
+      element.textContent += ' 🔥'
     }   
    
  });
